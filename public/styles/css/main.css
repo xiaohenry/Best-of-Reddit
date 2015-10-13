@@ -562,12 +562,13 @@ h5 {
           font-size: 16px;
           letter-spacing: 1px;
           margin-top: -30px;
-          text-align: center; }
+          text-align: center;
+          margin-left: -15px; }
           @media only screen and (max-width: 29.9375em) {
             /* line 195, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
             .nav-bar .nav-container .nav-top .logo div {
               font-size: 14px; } }
-      /* line 205, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 206, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .nav-bar .nav-container .nav-top .main-links {
         float: right;
         line-height: 60px;
@@ -575,68 +576,68 @@ h5 {
         display: inline-block;
         margin-right: 7%; }
         @media only screen and (max-width: 39.9375em) {
-          /* line 205, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 206, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .nav-bar .nav-container .nav-top .main-links {
             margin-right: 2%; } }
-        /* line 214, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 215, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .nav-bar .nav-container .nav-top .main-links .main-link {
           display: inline-block;
           margin: 0 10px;
           cursor: pointer;
           color: #143066; }
           @media only screen and (max-width: 39.9375em) {
-            /* line 214, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+            /* line 215, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
             .nav-bar .nav-container .nav-top .main-links .main-link {
               margin: 0 8px; } }
-          /* line 222, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 223, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .nav-bar .nav-container .nav-top .main-links .main-link a {
             text-decoration: none;
             color: #143066; }
-            /* line 225, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+            /* line 226, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
             .nav-bar .nav-container .nav-top .main-links .main-link a:hover {
               color: #2962d1; }
-          /* line 229, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 230, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .nav-bar .nav-container .nav-top .main-links .main-link h3 {
             font-weight: 600; }
-          /* line 233, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 234, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .nav-bar .nav-container .nav-top .main-links .main-link.selected h3 {
             color: #2962d1; }
-    /* line 240, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 241, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .nav-bar .nav-container .nav-links {
       width: 100%;
       margin: 0 auto;
       text-align: center;
       background-color: white;
       border-top: 1px solid #f6f6f6; }
-      /* line 249, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 250, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .nav-bar .nav-container .nav-links .subreddit-filter {
         cursor: pointer;
         display: inline-block;
         line-height: 40px;
         padding: 0 20px; }
         @media only screen and (max-width: 47.9375em) {
-          /* line 249, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 250, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .nav-bar .nav-container .nav-links .subreddit-filter {
             padding: 0 8px; } }
-        /* line 257, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 258, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .nav-bar .nav-container .nav-links .subreddit-filter a {
           color: #143066;
           text-decoration: none; }
-          /* line 260, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 261, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .nav-bar .nav-container .nav-links .subreddit-filter a:hover {
             color: #2962d1; }
-        /* line 264, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 265, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .nav-bar .nav-container .nav-links .subreddit-filter h4 {
           font-weight: bold; }
           @media only screen and (max-width: 29.9375em) {
-            /* line 264, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+            /* line 265, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
             .nav-bar .nav-container .nav-links .subreddit-filter h4 {
               font-size: 13px; } }
-        /* line 271, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 272, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .nav-bar .nav-container .nav-links .subreddit-filter.selected a {
           color: #2962d1; }
 
-/* line 280, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 281, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 .main {
   max-width: 1200px;
   margin: 0 auto;
@@ -646,12 +647,12 @@ h5 {
   min-height: 100%;
   background-color: #f6f6f6; }
 
-/* line 289, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 290, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 .photo-container {
   margin: 0 auto;
   max-width: 1200px;
   width: 90%; }
-  /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   .photo-container .photo {
     border: 1px solid #dddddd;
     padding: 1px;
@@ -661,40 +662,40 @@ h5 {
     width: 32.9%;
     height: 230px; }
     @media only screen and (max-width: 74.9375em) {
-      /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo {
         width: 49.0%;
         height: 250px;
         transition: 0.1s ease-in-out; } }
     @media only screen and (max-width: 56.1875em) {
-      /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo {
         height: 230px; } }
     @media only screen and (max-width: 47.9375em) {
-      /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo {
         width: 99.6%;
         height: 350px; } }
     @media only screen and (max-width: 39.9375em) {
-      /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo {
         height: 300px;
         transition: 0.1s ease-in-out; } }
     @media only screen and (max-width: 29.9375em) {
-      /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo {
         height: 225px;
         transition: 0.1s ease-in-out; } }
     @media only screen and (max-width: 22.4375em) {
-      /* line 293, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 294, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo {
         height: 180px; } }
-    /* line 326, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 327, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .photo-container .photo .photo-img {
       width: 100%;
       height: 100%;
       cursor: pointer; }
-    /* line 331, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 332, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .photo-container .photo .overlay {
       background-color: rgba(0, 0, 0, 0.6);
       text-align: center;
@@ -704,7 +705,7 @@ h5 {
       left: 1px;
       bottom: 0;
       transition: all 0.2s ease-in-out; }
-      /* line 340, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 341, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .photo-container .photo .overlay .photo-info {
         color: #dddddd;
         display: inline-block;
@@ -713,29 +714,29 @@ h5 {
         font-size: 14px;
         text-align: center; }
         @media only screen and (max-width: 29.9375em) {
-          /* line 340, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 341, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .photo-container .photo .overlay .photo-info {
             font-size: 11px;
             margin: 2px 0; } }
-        /* line 351, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 352, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .photo-container .photo .overlay .photo-info a {
           text-decoration: none;
           color: #dddddd;
           transition: all 0.1s ease-in-out; }
-          /* line 355, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 356, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .photo-container .photo .overlay .photo-info a:hover {
             color: #7a9fe5; }
-    /* line 362, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 363, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .photo-container .photo:hover .overlay {
       opacity: 1; }
 
-/* line 368, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 369, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 .more-container {
   display: none;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px; }
-  /* line 373, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 374, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   .more-container .more-button {
     border-radius: 100%;
     margin: 0 auto;
@@ -745,95 +746,95 @@ h5 {
     border: 1px solid #143066;
     color: #143066;
     cursor: pointer; }
-    /* line 382, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 383, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .more-container .more-button:hover {
       color: #2962d1;
       border: 1px solid #2962d1; }
-    /* line 386, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 387, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .more-container .more-button h3 {
       text-align: center;
       line-height: 100px; }
 
-/* line 393, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 394, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 .loader-container {
   display: none;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px; }
-  /* line 398, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 399, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   .loader-container .loader {
     width: 100px;
     height: 100px;
     margin: 0 auto;
     text-align: center; }
-    /* line 403, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 404, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .loader-container .loader i {
       color: #2962d1;
       line-height: 100px;
       font-size: 50px; }
 
-/* line 412, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 413, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 .about-container {
   position: relative;
   display: none;
   margin-top: -50px;
   background-color: #f6f6f6;
   box-shadow: 0 2px 2px #f6f6f6; }
-  /* line 418, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 419, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   .about-container .about {
     color: #143066;
     margin: 0 auto;
     padding: 0 15% 20px;
     max-width: 1200px;
     text-align: center; }
-    /* line 432, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 433, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .about-container .about p {
       text-align: justify;
       margin-top: 15px;
       font-size: 20px;
       transition: all 0.2s ease-in-out; }
-      /* line 437, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 438, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .about-container .about p .bold {
         color: #951b00; }
       @media only screen and (max-width: 39.9375em) {
-        /* line 432, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 433, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .about-container .about p {
           font-size: 18px; } }
 
-/* line 446, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 447, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 .contact-container {
   position: relative;
   display: none;
   margin-top: -50px;
   background-color: #f6f6f6;
   box-shadow: 0 2px 2px #f6f6f6; }
-  /* line 452, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 453, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   .contact-container .contact-me {
     color: #143066;
     margin: 0 auto;
     padding: 0 15% 20px;
     max-width: 1500px;
     text-align: center; }
-    /* line 466, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 467, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .contact-container .contact-me p {
       margin-top: 15px;
       font-size: 20px;
       transition: all 0.2s ease-in-out; }
-      /* line 470, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 471, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .contact-me p .bold {
         color: #143066;
         font-weight: bold; }
       @media only screen and (max-width: 39.9375em) {
-        /* line 466, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 467, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .contact-container .contact-me p {
           font-size: 22px; } }
-  /* line 479, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 480, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   .contact-container .form-container {
     margin: 0 auto;
     padding: 25px 0;
     max-width: 1500px;
     width: 100%; }
-    /* line 486, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 487, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     .contact-container .form-container form {
       margin: 0 auto;
       max-width: 575px;
@@ -844,14 +845,14 @@ h5 {
       /* active state */
       /* HIGHLIGHTER ================================== */ }
       @media only screen and (max-width: 39.9375em) {
-        /* line 486, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 487, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .contact-container .form-container form {
           width: 97%; } }
-      /* line 500, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 501, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .contact-field {
         position: relative;
         margin-bottom: 50px; }
-      /* line 505, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 506, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form input:not([type=button]),
       .contact-container .form-container form textarea {
         display: block;
@@ -863,20 +864,20 @@ h5 {
         font-size: 20px;
         transition: all 0.2s ease-in-out; }
         @media only screen and (max-width: 39.9375em) {
-          /* line 505, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 506, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .contact-container .form-container form input:not([type=button]),
           .contact-container .form-container form textarea {
             width: 97%; } }
-      /* line 529, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 530, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form textarea {
         max-height: 200px;
         height: 120px;
         resize: vertical; }
-      /* line 535, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 536, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form input:not([type=button]):focus,
       .contact-container .form-container form textarea:focus {
         outline: none; }
-      /* line 540, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 541, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form label {
         position: absolute;
         top: 10px;
@@ -885,49 +886,49 @@ h5 {
         font-weight: normal;
         transition: 0.2s ease all;
         pointer-events: none; }
-      /* line 551, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 552, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .contact-submit input {
         margin: 0 auto;
         width: 120px;
         background-color: white;
         transition: all 0.1s ease-in-out;
         color: #143066; }
-        /* line 557, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+        /* line 558, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
         .contact-container .form-container form .contact-submit input:hover {
           border-color: #2962d1;
           color: #2962d1; }
-      /* line 563, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 564, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .contact-label {
         font-size: 20px;
         transition: all 0.2s ease-in-out; }
         @media only screen and (max-width: 39.9375em) {
-          /* line 563, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 564, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .contact-container .form-container form .contact-label {
             font-size: 18px; } }
-      /* line 570, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 571, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .used ~ label {
         top: -27px;
         color: #143066;
         font-size: 18px;
         transition: all 0.2s ease-in-out; }
         @media only screen and (max-width: 39.9375em) {
-          /* line 570, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 571, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .contact-container .form-container form .used ~ label {
             font-size: 16px; } }
-      /* line 581, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 582, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .bar {
         position: relative;
         display: block;
         width: 587px; }
         @media only screen and (max-width: 39.9375em) {
-          /* line 581, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 582, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .contact-container .form-container form .bar {
             width: 99%; } }
         @media only screen and (max-width: 29.9375em) {
-          /* line 581, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+          /* line 582, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
           .contact-container .form-container form .bar {
             width: 100%; } }
-      /* line 597, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 598, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .bar:before,
       .contact-container .form-container form .bar:after {
         position: absolute;
@@ -937,19 +938,19 @@ h5 {
         background: #143066;
         content: '';
         transition: 0.2s ease all; }
-      /* line 606, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 607, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .bar:before {
         left: 50%; }
-      /* line 609, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 610, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .bar:after {
         right: 50%; }
-      /* line 616, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 617, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form input:not([type=button]):focus ~ .bar:before,
       .contact-container .form-container form input:not([type=button]):focus ~ .bar:after,
       .contact-container .form-container form textarea:focus ~ .bar:before,
       .contact-container .form-container form textarea:focus ~ .bar:after {
         width: 50%; }
-      /* line 620, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 621, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       .contact-container .form-container form .highlight {
         position: absolute;
         top: 25%;
@@ -959,7 +960,7 @@ h5 {
         opacity: 0.5;
         pointer-events: none; }
 
-/* line 632, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+/* line 633, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
 footer {
   display: none;
   position: fixed;
@@ -967,20 +968,20 @@ footer {
   padding: 15px 0;
   width: 100%;
   background-color: white; }
-  /* line 640, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+  /* line 641, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
   footer .copyright {
     margin: 5px 0 0 -8px;
     text-align: center; }
-    /* line 645, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+    /* line 646, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
     footer .copyright a {
       text-decoration: none;
       font-weight: normal;
       color: #143066;
       font-size: 16px;
       letter-spacing: 0.5px; }
-      /* line 651, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 652, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       footer .copyright a span {
         border-bottom: 1px dashed #2962d1; }
-      /* line 654, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
+      /* line 655, /Users/xiaohenry/Sites/bestof-reddit/public/styles/scss/_app.scss */
       footer .copyright a:hover {
         color: #2962d1; }
