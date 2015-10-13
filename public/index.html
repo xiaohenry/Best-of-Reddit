@@ -1,0 +1,165 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="bestof reddit" content="Top-voted reddit pictures and wallpapers">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class='nav-bar'>
+        <div class="nav-container">
+            <div class='nav-top'>
+                <div class="nav-top-container">
+                    <div class="logo">
+                        <a href='#home'>
+                            <h2>bestof &nbsp;reddit</h2>
+                            <div>IMAGES</div>
+
+                        </a>
+                    </div>
+                    <div class="main-links">
+                        <div class="about-link main-link">
+                            <a href="#about"><h3>about</h3></a>
+                        </div>
+                        <div class="contact-link main-link">
+                            <a href="#contact"><h3>contact</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-links">
+                <div class="subreddit-filter nav-link selected" data-subreddit='all'>
+                    <a href="#all"><h4>all</h4></a>
+                </div>
+                <div class="subreddit-filter nav-link" data-subreddit='wallpapers'>
+                    <a href='#wallpapers'><h4>r/wallpapers</h4></a>
+                </div>
+                <div class="subreddit-filter nav-link" data-subreddit='lowpoly'>
+                    <a href='#lowpoly'><h4>r/lowpoly</h4></a>
+                </div>
+                <div class="subreddit-filter nav-link" data-subreddit='earthporn'>
+                    <a href='#earthporn'><h4>r/earth</h4></a>
+                </div>
+                <!-- <div class="subreddit-filter nav-link" data-subreddit='wallpapers'> -->
+                    <!-- <h4>r/filler</h4> -->
+                <!-- </div> -->
+
+            </div>
+            <!-- <div class='current-label'> -->
+            <!-- <h4>currently viewing: all</h4> -->
+            <!-- </div> -->
+        </div>
+
+    </div>
+    <!-- end navbar -->
+
+    <div class="main">
+        <div class="photo-container">
+        </div>
+
+        <div class='more-container'>
+            <div class='more-button'>
+                <h3>more</h3>
+            </div>
+        </div>
+        <div class='loader-container'>
+            <div class='loader'><i class="fa fa-spinner fa-spin"></i></div>
+        </div>
+        <div class='about-container'>
+            <div class="about">
+                <div class='section-header'>
+                    <h2>about</h2>
+                </div>
+                <p>
+                    <span class='bold'>bestof reddit</span> is a simple web app powered by Parse. Every ~6 hours, it pulls top-voted photos from several subreddits and displays them. Currently, photos from a tumblr or imgur domain are supported. Feel free to contact me with subreddit suggestions, or let me know how I can improve the site.</p>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-me">
+                <div class='section-header'>
+                    <h2>contact</h2>
+                </div>
+                <p>Leave a suggestion or comment!</p>
+            </div>
+            <div class='form-container'>
+
+                <form action="http://formspree.io/xiaohenry08@gmail.com" method="POST" id='contact-form'>
+                    <div class='contact-name contact-field'>
+                        <input type='text' required name='name' />
+                        <span class='highlight'></span>
+                        <span class='bar'></span>
+                        <label class='contact-label'>name *</label>
+                    </div>
+
+                    <div class='contact-email contact-field'>
+                        <input type='email' required name="_replyto" />
+                        <span class='highlight'></span>
+                        <span class='bar'></span>
+                        <label class='contact-label'>email *</label>
+                    </div>
+
+                    <div class='contact-content contact-field'>
+                        <textarea class='contact-content' required name="body"></textarea>
+                        <span class='highlight'></span>
+                        <span class='bar'></span>
+                        <label class='contact-label'>message *</label>
+                    </div>
+                    <div class='contact-submit contact-field contact-label'>
+                        <input type='submit' value='send' />
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_subject" value="BESTOF-REDDIT: NEW MESSAGE" />
+                    <input type="hidden" name="_next" value="/#home">
+                </form>
+            </div>
+
+        </div>
+        <!-- end contact -->
+
+    </div>
+    <!-- end main -->
+    <footer>
+        <div class='copyright'>
+            <!-- <h5>© Henry Xiao</h5> -->
+            <a href='http://xiaohenry.me' target='_blank'>© <span>Henry Xiao</span></a>
+        </div>
+    </footer>
+
+    <script src="http://www.parsecdn.com/js/parse-1.3.5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+    </script>
+    <script type="text/javascript" src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/min/app-min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-66673338-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>
