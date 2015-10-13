@@ -65,17 +65,11 @@ Parse.Cloud.job('publishAndUpdatePhoto', function(request, response) {
             'https://www.reddit.com/r/wallpapers.json',
             'https://www.reddit.com/r/earthporn.json'
         ],
-        photosAdded = 0,
-        batchSize = 333;
+    photosAdded = 0,
+    batchSize = 333;
 
-    /**
-     * @function initialize
-     * @description Self-invoking initialize function
-     */
-    (function initialize() {
-        updatePhotos();
-        getPhotos(urls);
-    })();
+    updatePhotos();
+    getPhotos(urls);
 
     /**
      * @function updatePhotos
