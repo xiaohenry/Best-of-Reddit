@@ -26,10 +26,8 @@ $(document).on('ready', function() {
         'nextSpeed' : 200
     });
 
-    (function initialize() {
-        bindEventListeners();
-        fetchPhotos();
-    })();
+    bindEventListeners();
+    fetchPhotos();
 
 }); //end document.ready
 
