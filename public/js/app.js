@@ -73,7 +73,7 @@ function bindEventListeners() {
         $('.more-container').hide();
         $('footer').show();
         $('.about-container').show();
-        $('.-link').removeClass('selected');
+        $('.contact-link').removeClass('selected');
         $(this).addClass('selected');
     });
 

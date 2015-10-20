@@ -152,7 +152,7 @@ h5 {
 .hidden {
     display: none;
 }
-.nav-bar {
+nav {
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -637,7 +637,7 @@ footer {
     padding: 15px 0;
     width: 100%;
     background-color: white;
-    // margin-top: -100px;
+    box-shadow: 0 0 1px darken($OFF_WHITE, 15%);
     .copyright {
 
         // margin: 0 auto;
